@@ -10,7 +10,7 @@ apt-get install -y debian-tuddesign-keyring
 apt-get update
 
 # Install texlive
-apt-get install -y texlive texlive-lang-german texlive-fonts-recommended texlive-fonts-extra
+apt-get install -y texlive texlive-xetex texlive-lang-german texlive-fonts-recommended texlive-fonts-extra
 
 # Install TUD-Design
 apt-get install -y --force-yes t1-tudfonts tex-tudfonts ttf-tudfonts latex-tuddesign latex-tuddesign-thesis
