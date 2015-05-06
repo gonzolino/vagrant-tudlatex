@@ -17,3 +17,10 @@ apt-get install -y --force-yes t1-tudfonts tex-tudfonts ttf-tudfonts latex-tudde
 
 # Repeat installation of packages which fail the first time
 apt-get install -y --force-yes tex-tudfonts latex-tuddesign
+
+# Install latexmk
+apt-get install -y latexmk
+
+# Install requirements for minted
+apt-get install -y python-pip
+pip install Pygments
